@@ -1,0 +1,24 @@
+{
+  "name": "hongshuhe-watch5-key",
+  "version": "0.1.0",
+  "description": "Honor Watch 5 BLE car key prototype for Hongshuhe Bear",
+  "type": "module",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "dev": "tsx src/simulator/cli.ts",
+    "test": "vitest run"
+  },
+  "keywords": [
+    "honor-watch-5",
+    "ble",
+    "car-key",
+    "typescript"
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^24.7.2",
+    "tsx": "^4.20.6",
+    "typescript": "^5.9.3",
+    "vitest": "^3.2.4"
+  }
+}
